@@ -12,7 +12,7 @@ class DigitalTwin:
         print(f"Energy Usage: {self.parameters['energy_usage']} kW")
         print(f"Waste Generation: {self.parameters['waste_generation']} kg")
 
-# Create a digital twin for "GreenPort"
+
 port_twin = DigitalTwin("GreenPort")
 port_twin.update_parameters(8000, 300)
 port_twin.display_status()
